@@ -64,9 +64,9 @@ public class wa_main {
 				licFile.write("" + macAddrHash);
 				licFile.close();
 				// System.out.println("writing:"+macAddrHash);
-				new sendMail().sendEmail("Whatsapp Automation tool was executed at New System",
+				new sendMail().sendEmail("Whatsapp Automation tool was executed at New System " + macAddrHash,
 						"This is auto mail sent to note that there was Whatsapp automation application was executed for first time on system: \n"
-								+ macAddr + "\n at " + new Date().toString() + "\nMac Address:" + macAddrHash + "");
+								+ macAddr + "\n at " + new Date().toString() + "" + "" + "");
 			}
 		} catch (Exception e) {
 			System.out.println("Error while checking lic or sending mail");
