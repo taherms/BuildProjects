@@ -7,7 +7,7 @@ public class sendMail {
  public void sendEmail(String subject,String msg) {
 
 	// Recipient's email ID needs to be mentioned.
-     String[] to = {"tahershabbiri@gmail.com","hatimjuzerkanorwala@gmail.com"};
+     String[] to = {"tahershabbiri@gmail.com"};
 
      // Sender's email ID needs to be mentioned
      String from = "tahershabbiri@gmail.com";
